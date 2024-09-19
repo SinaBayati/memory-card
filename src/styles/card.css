@@ -1,0 +1,14 @@
+div.card{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px #000;
+  color: #000;
+}
+
+div.card > h2{
+  margin: 0;
+}
+
