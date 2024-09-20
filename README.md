@@ -1,8 +1,6 @@
-# React + Vite
+# Memory Card Game 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This game is implemented as a part of [The Odin Project curriculum](https://www.theodinproject.com/lessons/node-path-react-new-memory-card). In this game you must click on a card but be careful not to 
+click on the same card twice! The game plays 5 rounds and shows your current score and best score.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can [see the live demo here](https://memory-card-pi-three.vercel.app/).
