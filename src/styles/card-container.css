@@ -1,0 +1,39 @@
+div.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+h2.center{
+  display: flex;
+  justify-content: center;
+}
+
+h2.mb-100{
+  margin-bottom: 100px;
+}
+
+.btn-restart{
+  background-color: orange;
+  color: black;
+  padding: 10px 50px;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 5px 5px black;
+}
+
+.btn-restart:hover,
+.btn-restart:active{
+  background-color: black;
+  color: orange;
+}
+
+@media screen and (max-width: 500px) {
+  div.card-container{
+    flex-direction: column;
+  }
+}

@@ -1,13 +1,14 @@
-import './App.css';
-import { Card } from './components/card';
+import './styles/App.css';
+import { CardContainer } from './components/card-container';
+import { Header } from './components/header';
+import { Footer } from './components/footer';
 
 function App() {
   return (
     <>
-      <Card 
-        imageUrl="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/2.png"
-        altText="Ivysaur"
-      ></Card>
+      <Header></Header>
+      <CardContainer></CardContainer>
+      <Footer></Footer>
     </>
   )
 }

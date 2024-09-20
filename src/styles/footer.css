@@ -1,0 +1,23 @@
+footer{
+  background-color: orange;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 -2px 5px 3px black;
+}
+
+footer > a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2rem;
+}
+
+footer > a:hover,
+footer > a:active{
+  color: black;
+}
